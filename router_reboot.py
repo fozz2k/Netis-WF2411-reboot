@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 browser = webdriver.Firefox()
 browser.minimize_window()
-browser.get('http://username:password@192.168.20.126')
+browser.get('http://username:password@x.x.x.x') #enter your username, password and ip address
 time.sleep(2)
 advance = browser.find_element_by_css_selector('#imgsrc')
 advance.click()
